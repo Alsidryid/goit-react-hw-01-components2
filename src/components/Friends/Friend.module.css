@@ -1,0 +1,40 @@
+.true{
+    background-color: green;
+}
+.false {
+   
+    background-color: red;
+  
+}
+.true, .false{
+border-radius: 50%;
+width: 30px;
+    height: 30px;
+}
+.list{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 500px;
+    margin: 40px auto 40px auto;
+    
+}
+.item{
+    padding: 5px 15px;
+display: flex;
+margin-bottom: 10px;
+align-items: center;
+border-radius: 7px;
+background-color: rgba(223, 224, 224, 0.774);
+box-shadow: 5px 4px 4px rgba(119, 118, 118, 0.514);
+}
+.ava{
+margin-left: 20px;
+width: 60px;
+}
+.nam{
+margin-left: 30px;
+font-size: 25px;
+font-weight: 500;
+}

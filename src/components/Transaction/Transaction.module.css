@@ -1,0 +1,28 @@
+.table{
+    margin:20px auto 40px auto;
+border-spacing: 0px;
+    border-collapse: collapse;
+    width: 700px;
+
+}
+.head{
+    background-color: rgb(8, 161, 199);
+    padding-top: 20px;
+    color: aliceblue;
+    border: 1px solid rgb(8, 161, 199);
+}
+.item{
+text-align: center;
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+td{
+    border: 1px solid rgb(230, 227, 227);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.item:nth-child(2n){
+    background-color: rgb(238, 238, 240);
+}
