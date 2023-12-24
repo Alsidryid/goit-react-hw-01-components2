@@ -1,4 +1,4 @@
-import styles from "./Friend.module.css"
+import styles from "./FriendItem.module.css"
 
 function FriendItem({ avatar, name, isOnline }) {
     return <li className={styles.item} >
